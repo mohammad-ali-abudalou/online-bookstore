@@ -1,0 +1,80 @@
+Helpful link
+
+https://about.gitlab.com/images/press/git-cheat-sheet.pdf
+
+ 
+
+creating new project and share it to github
+
+ 
+
+1- navigate to the project folder
+
+2- git init
+
+3- create new repo on github
+
+4- git status
+
+5- git add *
+
+6- git commit -m "This is the second commit"
+
+7- git remote add origin https://github.com/HAbandeh/{FirstRepo}.git
+
+8- git branch -M main
+
+9- git push -u origin main --> this after calling commit
+
+ 
+
+Now the branch should be on git hub
+
+ 
+
+--------------------------------------------------------------------
+
+ 
+
+To clone from Git hub to your machine
+
+1- git init
+
+2- git clone https://github.com/HAbandeh/{TestRepo}.git
+
+ 
+
+ 
+
+--------------------------------------------------------------------
+
+Creating new branch after cloning and push it to remote
+
+1- git init
+
+2- git clone https://github.com/HAbandeh/{TestRepo}.git
+
+3- git branch tempBranch
+
+4- git checkout tempBranch
+
+5- git status
+
+6- add new changes.
+
+7- git add file.txt
+
+8- git commit -m "This is the second commit"
+
+8- git push -u https://github.com/HAbandeh/{TestRepo}.git tempBranch
+
+ 
+
+--------------------------------------------------------------------
+
+ 
+
+pull changes from remote
+
+1- git pull https://github.com/HAbandeh/{Rest}.git
+
